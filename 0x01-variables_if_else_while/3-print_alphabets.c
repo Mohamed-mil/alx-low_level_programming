@@ -21,7 +21,7 @@ int main(void)
 		putchar(H);
 		H++;
 	}
-putchar('\n');
+	putchar('\n');
 
-return (0);
+	return (0);
 }
