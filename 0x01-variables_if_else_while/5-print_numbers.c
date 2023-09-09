@@ -12,7 +12,7 @@ int main(void)
 
 	while (d <= 9)
 	{
-		printf("%i". d);
+		printf("%i", d);
 		d++;
 	}
 	printf("\n");
