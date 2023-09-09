@@ -11,11 +11,14 @@ int main(void)
 	char h = 'a';
 	char H = 'A';
 
-	while (ch <= 'z')
+	/*prints a - z*/
+        while (h <= 'z')
 	{
 		putchar(h);
 		h++;
 	}
+
+	/*print A - Z*/
 	while (H <= 'Z')
 	{
 		putchar(H);
