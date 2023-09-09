@@ -14,7 +14,7 @@ int main(void)
 		putchar(d + 48);
 		if (d != 9)
 		{
-			putchar('.');
+			putchar(',');
 			putchar(' ');
 		}
 
