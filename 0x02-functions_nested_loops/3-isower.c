@@ -6,9 +6,9 @@
  * Return: 1 if 'c' is lowercase
 */
 
-int _islowr(int x)
+int _islower(int x)
 {
-	if (x >= 97 && x <= 122)
-		return (1);
-	return (0);
+        if (x >= 97 && x <= 122)
+                return (1);
+        return (0);
 }
