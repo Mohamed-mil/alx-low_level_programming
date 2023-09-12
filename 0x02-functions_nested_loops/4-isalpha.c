@@ -8,7 +8,7 @@
  * Return: 1 is y if true else 0
 */
 
-int _isalpha(int y);
+int _isalpha(int y)
 {
 	if (y >= 65 && y <= 90)
 		return (1);
