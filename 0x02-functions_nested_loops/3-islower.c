@@ -7,7 +7,8 @@
  * Return: 1 if 'x' is lowercase
  *         otherwise always 0 (success)
 */
-int _islower(int x);
+int _islower(int x)
+
 {
 	if (x >= 97 && x <= 122)
 		return (1);
