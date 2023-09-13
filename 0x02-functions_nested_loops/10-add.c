@@ -6,12 +6,12 @@
  * @x: first input
  * @y: sec input
  *
- * Return: sum of x and y
+ * Return: sum of x & y
 */
 
 int add(int x, int y)
 {
-	int sum = int x + int y;
+	int sum = x + y;
 
 	return (sum);
 }
