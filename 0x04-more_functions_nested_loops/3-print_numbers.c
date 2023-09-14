@@ -11,9 +11,9 @@ void print_numbers(void)
 {
 	int x;
 
-	for (x = 48; x <= 57; x++)
-	{
-		printf("%d\n". x);
-	}
-	return (0)
+	do {
+		_putchar(x + 48);
+		x++;
+	} while (x >= 0 && x <= 9);
+	_putchar('\n');
 }
