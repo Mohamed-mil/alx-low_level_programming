@@ -16,19 +16,26 @@ int main(void)
 
 	for (m = 1; m <= 100; m++)
 	{
-		if (m % 3 == 0 && !(m % 5 == 0))
+		if (m % 3 == 0 && m % 5 != 0)
+		{
 			printf("fizz");
-		else if (m % 5 == 0 && !(m % 3 == 0))
+		}
+		else if (m % 5 == 0 && m % 3 != 0)
+		{
 			printf("buzz");
+		}
 		else if (m % 3 == 0 && m % 5 == 0)
+		{
 			printf("fizzbuzz");
-		else
+		}
+		else if (m == 1)
+		{
 			printf("%d", m);
-
-		if (m != 100)
-			printf(" ");
+		}
 		else
-			printf("\n");
+		{
+			printf(" %d", m);
+		}
 	}
 	return (0);
 }
