@@ -4,7 +4,7 @@
  * more_numbers - print 0 - 14 ten times and
  *                 use _ putcher three times
  *
- * Return : always 0 (success)
+ * Return: always 0 (success)
 */
 
 void more_numbers(void)
