@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - print 0 - 14 ten times and
- *                 use _ putcher three times
+ *                 use _ putchar three times
  *
  * Return: always 0 (success)
 */
