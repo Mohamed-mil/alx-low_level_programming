@@ -7,7 +7,6 @@
  * Return : always 0 (success)
 */
 
-
 void more_numbers(void)
 {
 	int x, y, z;
@@ -27,4 +26,3 @@ void more_numbers(void)
 		_putchar('\n');
 	}
 }
-
