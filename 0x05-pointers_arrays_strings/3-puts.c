@@ -5,7 +5,7 @@
  *
  * @str: string parametr
  *
- * Return; nothng
+ * Return: nothng
 */
 
 void _puts(char *str)
