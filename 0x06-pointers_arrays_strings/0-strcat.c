@@ -5,15 +5,20 @@
  *
  * @dest: string
  * @src: string
- * Return: aways 0
+ * Return: @dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[] = "Ballon";
-	char src[] = "Dor";
+	int c, d;
 
-	printf("the winner for%s\n", strcat(s1, s2));
+	c = 0;
 
-	return (0);
+	while (dest[c])
+		c++;
+
+	for (d = 0; src[d]; d++)
+		dest[c++] = src[d];
+
+	return (dest);
 }
