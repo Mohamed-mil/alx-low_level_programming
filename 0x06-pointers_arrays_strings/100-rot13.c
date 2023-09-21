@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * rot13 - rotate the alphapet by 13 place
+ * *rot13 - rotate the alphapet by 13 place
  * @s: string
  *
  * Return: encoded string
