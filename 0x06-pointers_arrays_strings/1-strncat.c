@@ -5,7 +5,7 @@
  *
  * @dest: string
  * @src: string
- * @n: character
+ * @n: number of bytes
  * Return: @dest
 */
 
