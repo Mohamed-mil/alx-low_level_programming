@@ -20,12 +20,11 @@ char *rot13(char *s)
 		{
 			if (*s  == data[i])
 			{
-				*s  = rotdata[i];
+				*s = rotdata[i];
 				break;
 			}
 		}
 		s++
-
 	}
 	return (ptr);
 }
