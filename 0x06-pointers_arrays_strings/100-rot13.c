@@ -24,6 +24,7 @@ char *rot13(char *s)
 				*s = rotdata[i];
 				break;
 			}
+			s++
 		}
 	}
 	return (ptr);
