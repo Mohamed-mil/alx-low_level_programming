@@ -1,11 +1,10 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * *rot13 - rotate the alphapet by 13 place
+ * rot13 - rotate the alphapet by 13 place
  * @s: string
  *
- * Return: s
+ * Return: encoded string
 */
 
 char *rot13(char *s)
@@ -25,6 +24,7 @@ char *rot13(char *s)
 				break;
 			}
 		}
+		s++
 
 	}
 	return (ptr);
