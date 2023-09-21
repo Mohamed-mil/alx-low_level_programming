@@ -3,12 +3,12 @@
 
 /**
  * *rot13 - rotate the alphapet by 13 place
- * @n: string
+ * @s: string
  *
  * Return: s
 */
 
-char *rot13(char *n)
+char *rot13(char *s)
 {
 	int i;
 	char data[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -17,7 +17,7 @@ char *rot13(char *n)
 
 	while (*s)
 	{
-		for (i = 0; i <= 52; j++)
+		for (i = 0; i <= 52; i++)
 		{
 			if (*s  == data[i])
 			{
