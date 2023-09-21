@@ -2,7 +2,7 @@
 
 
 /**
- * _strcpy - copies two striing
+ * _strncpy - copies two striing
  * @dest: string
  * @src: string
  * @n: bytes of src
@@ -12,16 +12,16 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-        int i;
+	int i;
 
-        for (i = 0; i < n && src[i] != '\0'; i++)
-                dest[i] = src[i];
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
 
-        while (i < n)
-        {
-                dest[i] = '\0';
-                i++;
-        }
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
 
-        return (dest);
+	return (dest);
 }
