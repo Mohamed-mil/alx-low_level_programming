@@ -6,16 +6,22 @@
  * @dest: string
  * @src: string
  * @n: character
- * Return: dest
+ * Return: @dest
 */
 
 char *_strncat(char *dest, char *src, int n);
 {
-	char dest[] = "do this";
-	char src[7] = "do that";
-	int n = 7;
+	int c, d;
 
-	printf("%s\n", strncat(dest, src, n))
+	c = 0;
+
+	while (dest[c])
+		c++;
+
+	for (d = 0; d < n && src[d] != '\0'; d++)
+		dest[c + d] = src[d];
+
+	dest[c + d] = '\0';
 
 			return (dest);
 }
