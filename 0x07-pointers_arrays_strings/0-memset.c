@@ -2,6 +2,7 @@
 
 /**
  * *_memset - fills memory with a constant byte
+ *
  * @n: max byte to use
  * @b: const
  * @s: pointer
