@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * square - check the square
  * @n: int
  * @val: int
- * @Return: int
+ * Return: int
 */
 int square(int n, int val)
 {
