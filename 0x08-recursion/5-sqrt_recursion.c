@@ -4,23 +4,23 @@
  * _sqrt_recursion - print the sqaure of numbers
  * @n: int
  * @val: int
- * Return: sqr
+ * Return: int
 */
 
-int sqr(int n, int val);
+int square(int n, int val);
 int _sqrt_recursion(int n)
 {
-	return (sqr(n, 1));
+	return (square(n, 1));
 }
 
 
 /**
- * sqr - check the square
+ * square - check the square
  * @n: int
  * @val: int
  * @Return: int
 */
-int sqr(int n, int val)
+int square(int n, int val)
 {
 	if (val * val == n)
 		return (val);
