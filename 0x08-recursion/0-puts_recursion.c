@@ -3,7 +3,7 @@
 /**
  * _puts_recursion - prints a string
  * @s: pointer to a string
- * Return: s
+ * Return: nothing
 */
 
 void _puts_recursion(char *s)
@@ -17,5 +17,4 @@ void _puts_recursion(char *s)
 		putchar(*s);
 		_puts_recursion(s + 1);
 	}
-	return (s);
 }
