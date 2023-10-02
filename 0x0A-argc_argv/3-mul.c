@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.hm
+#include <stdlib.h>
+
 /**
  * main - print sum of 2 numbers
  * @argc: number of commandline argumnts
