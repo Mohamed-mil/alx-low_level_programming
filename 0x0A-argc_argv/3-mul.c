@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <stdlib.hm
 /**
  * main - print sum of 2 numbers
  * @argc: number of commandline argumnts
  * @argv: pointer to ana array
- * Return: 0
+ * Return: 0 if success non zero to fail
 */
 
 int main(int argc, char *argv[])
